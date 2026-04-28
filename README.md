@@ -156,3 +156,13 @@ The system prompt loads a lightweight `skills/catalog.md` so the LLM knows what 
 
 ## AI Usage
 Built using Claude Code as the primary coding agent for scaffolding, data generation, and implementation. Architecture design and problem scoping were done manually. The agent's LLM backend uses Gemini 3.1 flash preview for intent classification and reply generation.
+
+
+
+## Time Log:
+
+Architecture design & problem selection: ~90 min (longest phase — evaluated multiple approaches before settling on email triage with Skills pattern)
+Data generation & project scaffolding: ~30 min (Claude Code)
+Agent implementation & LangGraph wiring: ~40 min
+Eval suite & debugging: ~20 min
+Total: ~3 hours
