@@ -150,3 +150,7 @@ The system prompt loads a lightweight `skills/catalog.md` so the LLM knows what 
 | `make run` | Launch Streamlit app |
 | `make eval` | Run eval suite |
 | `make clean` | Remove caches and `.venv` |
+
+## Screenshot of output
+<img width="2540" height="1500" alt="image" src="https://github.com/user-attachments/assets/e713351f-e3fd-49a2-9969-eb5a37ad9262" />
+
