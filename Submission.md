@@ -1,3 +1,6 @@
+**Track A | AI Engineering Intern**
+
+
 ## AI Usage
 Built using Claude Code as the primary coding agent for scaffolding, data generation, and implementation. Architecture design and problem scoping were done manually. The agent's LLM backend uses Gemini 3.1 flash preview for intent classification and reply generation.
 
@@ -69,7 +72,6 @@ take priority. Would fix by adding intent priority rules.
 malformed JSON, no missing fields, no empty strings.
 
 
-**Track A | AI Engineering Intern**
 
 ## Tradeoffs
 
