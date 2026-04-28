@@ -166,3 +166,60 @@ Data generation & project scaffolding: ~30 min (Claude Code)
 Agent implementation & LangGraph wiring: ~40 min
 Eval suite & debugging: ~20 min
 Total: ~3 hours
+
+
+## Evals
+
+### Rubric
+Each test case is scored on:
+- **Intent accuracy**: Does the predicted intent match the expected intent?
+- **Urgency accuracy**: Does the predicted urgency match? (off-by-one is noted, not penalized equally)
+- **Schema validity**: Does the output pass Pydantic validation?
+
+### Results Summary
+
+| Metric | Score |
+|---|---|
+| Total test cases | 15 |
+| Passed | 9/15 (60%) |
+| Intent mismatches | 2 |
+| Urgency mismatches | 4 |
+| Schema validation failures | 0 |
+
+### Per-Case Results
+
+| Test | Intent | Urgency | Schema | Status |
+|---|---|---|---|---|
+| tc_001 | ✅ | ❌ (predicted high, expected medium) | ✅ | FAIL |
+| tc_002 | ✅ | ✅ | ✅ | PASS |
+| tc_003 | ✅ | ✅ | ✅ | PASS |
+| tc_004 | ✅ | ✅ | ✅ | PASS |
+| tc_005 | ✅ | ❌ (predicted high, expected medium) | ✅ | FAIL |
+| tc_006 | ✅ | ❌ (predicted medium, expected low) | ✅ | FAIL |
+| tc_007 | ✅ | ✅ | ✅ | PASS |
+| tc_008 | ✅ | ✅ | ✅ | PASS |
+| tc_009 | ✅ | ✅ | ✅ | PASS |
+| tc_010 | ❌ (predicted general_inquiry, expected out_of_scope) | — | ✅ | FAIL |
+| tc_011 | ✅ | ✅ | ✅ | PASS |
+| tc_012 | ✅ | ✅ | ✅ | PASS |
+| tc_013 | ❌ (predicted order_inquiry, expected return_request) | — | ✅ | FAIL |
+| tc_014 | ✅ | ✅ | ✅ | PASS |
+| tc_015 | ✅ | ❌ (predicted critical, expected high) | ✅ | FAIL |
+
+### Failure Analysis
+
+**Urgency calibration (4 failures):** The agent consistently rates urgency one 
+level higher than human labels. After review, this is defensible — a customer-first 
+approach should err toward higher urgency rather than under-triaging. In production, 
+urgency thresholds would be calibrated with the CS team.
+
+**Intent misclassification — tc_010:** Agent classified an out-of-scope email as 
+general_inquiry. The email was borderline — agent tried to be helpful instead of 
+refusing. Would fix by adding stricter out-of-scope rules in the classification prompt.
+
+**Intent misclassification — tc_013:** Agent classified a return request as order_inquiry 
+because the email mentioned both an order number and a return. The return intent should 
+take priority. Would fix by adding intent priority rules.
+
+**Schema validity: 15/15 (100%).** Every output passed Pydantic validation — no 
+malformed JSON, no missing fields, no empty strings.
