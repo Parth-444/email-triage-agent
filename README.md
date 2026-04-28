@@ -154,3 +154,5 @@ The system prompt loads a lightweight `skills/catalog.md` so the LLM knows what 
 ## Screenshot of output
 <img width="2540" height="1500" alt="image" src="https://github.com/user-attachments/assets/e713351f-e3fd-49a2-9969-eb5a37ad9262" />
 
+## AI Usage
+Built using Claude Code as the primary coding agent for scaffolding, data generation, and implementation. Architecture design and problem scoping were done manually. The agent's LLM backend uses Gemini 3.1 flash preview for intent classification and reply generation.
