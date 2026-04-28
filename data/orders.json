@@ -1,0 +1,472 @@
+[
+  {
+    "order_id": "MW-2024-0001",
+    "customer_name": "Fatima Ali",
+    "customer_email": "fatima.ali@gmail.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "STR-001",
+        "name_en": "Chicco Bravo Quick-Fold Stroller",
+        "name_ar": "عربة تشيكو برافو القابلة للطي السريع",
+        "price_aed": 749.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-03-15",
+    "delivery_date": "2024-03-20",
+    "total_aed": 749.0,
+    "country": "UAE",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0002",
+    "customer_name": "Noor Hassan",
+    "customer_email": "noor.hassan@gmail.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "FED-004",
+        "name_en": "Philips Avent Double Electric Breast Pump",
+        "name_ar": "مضخة حليب كهربائية مزدوجة من فيليبس أفينت",
+        "price_aed": 899.0,
+        "quantity": 1
+      },
+      {
+        "product_id": "FED-006",
+        "name_en": "Philips Avent Ultra Air Soother Set",
+        "name_ar": "طقم لهايات ألترا إير من فيليبس أفينت",
+        "price_aed": 45.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-04-02",
+    "delivery_date": null,
+    "total_aed": 944.0,
+    "country": "UAE",
+    "payment_method": "apple_pay"
+  },
+  {
+    "order_id": "MW-2024-0003",
+    "customer_name": "Omar Khan",
+    "customer_email": "omar.khan@gmail.com",
+    "status": "shipped",
+    "items": [
+      {
+        "product_id": "DPR-001",
+        "name_en": "Pampers Premium Care Size 2",
+        "name_ar": "حفاضات بامبرز بريميوم كير مقاس 2",
+        "price_aed": 49.0,
+        "quantity": 2
+      },
+      {
+        "product_id": "DPR-006",
+        "name_en": "Pampers Aqua Pure Wipes",
+        "name_ar": "مناديل بامبرز أكوا بيور",
+        "price_aed": 21.0,
+        "quantity": 2
+      }
+    ],
+    "order_date": "2024-04-05",
+    "delivery_date": null,
+    "total_aed": 140.0,
+    "country": "KSA",
+    "payment_method": "cash_on_delivery"
+  },
+  {
+    "order_id": "MW-2024-0004",
+    "customer_name": "Sara Ahmed",
+    "customer_email": "sara.ahmed@gmail.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "NUR-003",
+        "name_en": "Philips Avent Connected Video Baby Monitor",
+        "name_ar": "جهاز مراقبة أطفال بالفيديو من فيليبس أفينت",
+        "price_aed": 799.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-03-28",
+    "delivery_date": "2024-04-01",
+    "total_aed": 799.0,
+    "country": "UAE",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0005",
+    "customer_name": "Laila Saeed",
+    "customer_email": "laila.saeed@gmail.com",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "CLT-002",
+        "name_en": "Carter's Short Sleeve Bodysuit Set",
+        "name_ar": "طقم بودي بأكمام قصيرة من كارترز",
+        "price_aed": 89.0,
+        "quantity": 1
+      },
+      {
+        "product_id": "CLT-003",
+        "name_en": "Mothercare Cotton Sleepsuit Pack",
+        "name_ar": "طقم سالوبيت قطني من مذركير",
+        "price_aed": 119.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-04-03",
+    "delivery_date": null,
+    "total_aed": 208.0,
+    "country": "UAE",
+    "payment_method": "mada"
+  },
+  {
+    "order_id": "MW-2024-0006",
+    "customer_name": "Ahmed Nasser",
+    "customer_email": "ahmed.nasser@gmail.com",
+    "status": "returned",
+    "items": [
+      {
+        "product_id": "BTH-001",
+        "name_en": "Mustela Gentle Cleansing Gel",
+        "name_ar": "جل تنظيف لطيف من موستيلا",
+        "price_aed": 48.0,
+        "quantity": 1
+      },
+      {
+        "product_id": "BTH-002",
+        "name_en": "Mustela Hydra Bebe Body Lotion",
+        "name_ar": "لوشن هيدرا بيبي من موستيلا",
+        "price_aed": 52.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-03-10",
+    "delivery_date": "2024-03-13",
+    "total_aed": 100.0,
+    "country": "UAE",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0007",
+    "customer_name": "Huda Rahman",
+    "customer_email": "huda.rahman@gmail.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "STR-003",
+        "name_en": "Joie i-Spin 360 Car Seat",
+        "name_ar": "مقعد سيارة جوي آي-سبين 360",
+        "price_aed": 1399.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-03-18",
+    "delivery_date": "2024-03-22",
+    "total_aed": 1399.0,
+    "country": "UAE",
+    "payment_method": "tabby"
+  },
+  {
+    "order_id": "MW-2024-0008",
+    "customer_name": "Mariam Youssef",
+    "customer_email": "mariam.youssef@gmail.com",
+    "status": "shipped",
+    "items": [
+      {
+        "product_id": "FED-008",
+        "name_en": "Chicco Polly Easy Highchair",
+        "name_ar": "كرسي طعام تشيكو بولي إيزي",
+        "price_aed": 649.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-04-07",
+    "delivery_date": null,
+    "total_aed": 649.0,
+    "country": "KSA",
+    "payment_method": "cash_on_delivery"
+  },
+  {
+    "order_id": "MW-2024-0009",
+    "customer_name": "Khalid Mansoor",
+    "customer_email": "khalid.mansoor@gmail.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "TOY-001",
+        "name_en": "Fisher-Price Kick & Play Piano Gym",
+        "name_ar": "بساط فيشر برايس مع بيانو للعب",
+        "price_aed": 249.0,
+        "quantity": 1
+      },
+      {
+        "product_id": "TOY-006",
+        "name_en": "Playgro Activity Rattle Set",
+        "name_ar": "طقم خشخيشات بلاي جرو",
+        "price_aed": 79.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-04-09",
+    "delivery_date": null,
+    "total_aed": 328.0,
+    "country": "UAE",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0010",
+    "customer_name": "Dina Farouk",
+    "customer_email": "dina.farouk@gmail.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "DPR-003",
+        "name_en": "Tommee Tippee Twist & Click Bin",
+        "name_ar": "حاوية حفاضات تومي تيبي تويست آند كليك",
+        "price_aed": 219.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-03-26",
+    "delivery_date": "2024-03-29",
+    "total_aed": 219.0,
+    "country": "UAE",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0011",
+    "customer_name": "Reem Abdullah",
+    "customer_email": "reem.abdullah@gmail.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "STR-002",
+        "name_en": "Babyzen YOYO2 Stroller",
+        "name_ar": "عربة بيبيزن يويو 2",
+        "price_aed": 1899.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-03-12",
+    "delivery_date": "2024-03-16",
+    "total_aed": 1899.0,
+    "country": "Qatar",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0012",
+    "customer_name": "Fatima Ali",
+    "customer_email": "fatima.ali@gmail.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "STR-001",
+        "name_en": "Chicco Bravo Quick-Fold Stroller",
+        "name_ar": "عربة تشيكو برافو القابلة للطي السريع",
+        "price_aed": 749.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-04-10",
+    "delivery_date": "2024-04-13",
+    "total_aed": 749.0,
+    "country": "UAE",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0013",
+    "customer_name": "Yara Salem",
+    "customer_email": "yara.salem@gmail.com",
+    "status": "shipped",
+    "items": [
+      {
+        "product_id": "BTH-004",
+        "name_en": "Tommee Tippee Splashtime Bath Toys",
+        "name_ar": "ألعاب استحمام من تومي تيبي",
+        "price_aed": 39.0,
+        "quantity": 1
+      },
+      {
+        "product_id": "BTH-001",
+        "name_en": "Mustela Gentle Cleansing Gel",
+        "name_ar": "جل تنظيف لطيف من موستيلا",
+        "price_aed": 48.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-04-11",
+    "delivery_date": null,
+    "total_aed": 87.0,
+    "country": "UAE",
+    "payment_method": "apple_pay"
+  },
+  {
+    "order_id": "MW-2024-0014",
+    "customer_name": "Salma Haddad",
+    "customer_email": "salma.haddad@gmail.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "NUR-001",
+        "name_en": "Chicco Next2Me Magic Crib",
+        "name_ar": "سرير تشيكو نكست تو مي ماجيك",
+        "price_aed": 999.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-02-20",
+    "delivery_date": "2024-02-24",
+    "total_aed": 999.0,
+    "country": "UAE",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0015",
+    "customer_name": "Yousef Al Kaabi",
+    "customer_email": "yousef.kaabi@gmail.com",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "FED-009",
+        "name_en": "BEABA Babycook Neo",
+        "name_ar": "بيبا بيبي كوك نيو",
+        "price_aed": 1199.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-04-04",
+    "delivery_date": null,
+    "total_aed": 1199.0,
+    "country": "UAE",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0016",
+    "customer_name": "Priya Menon",
+    "customer_email": "priya.menon@gmail.com",
+    "status": "returned",
+    "items": [
+      {
+        "product_id": "DPR-001",
+        "name_en": "Pampers Premium Care Size 2",
+        "name_ar": "حفاضات بامبرز بريميوم كير مقاس 2",
+        "price_aed": 49.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-03-08",
+    "delivery_date": "2024-03-11",
+    "total_aed": 49.0,
+    "country": "UAE",
+    "payment_method": "cash_on_delivery"
+  },
+  {
+    "order_id": "MW-2024-0017",
+    "customer_name": "Aisha Mirza",
+    "customer_email": "aisha.mirza@gmail.com",
+    "status": "shipped",
+    "items": [
+      {
+        "product_id": "STR-008",
+        "name_en": "Maxi-Cosi Lara2 Stroller",
+        "name_ar": "عربة ماكسي كوزي لارا 2",
+        "price_aed": 1299.0,
+        "quantity": 1
+      },
+      {
+        "product_id": "BTH-003",
+        "name_en": "Chicco Baby Moments Shampoo",
+        "name_ar": "شامبو بيبي مومنتس من تشيكو",
+        "price_aed": 29.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-04-06",
+    "delivery_date": null,
+    "total_aed": 1328.0,
+    "country": "Bahrain",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0018",
+    "customer_name": "Maha Al Suwaidi",
+    "customer_email": "maha.suwaidi@gmail.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "TOY-004",
+        "name_en": "Chicco First Dreams Projector",
+        "name_ar": "جهاز عرض الأحلام الأولى من تشيكو",
+        "price_aed": 179.0,
+        "quantity": 1
+      },
+      {
+        "product_id": "NUR-002",
+        "name_en": "Maxi-Cosi Kori Rocker",
+        "name_ar": "هزاز ماكسي كوزي كوري",
+        "price_aed": 699.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-04-01",
+    "delivery_date": "2024-04-04",
+    "total_aed": 878.0,
+    "country": "UAE",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0019",
+    "customer_name": "Farah Jamal",
+    "customer_email": "farah.jamal@gmail.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "FED-001",
+        "name_en": "Philips Avent Natural Bottle Gift Set",
+        "name_ar": "طقم رضاعة هدية من فيليبس أفينت",
+        "price_aed": 179.0,
+        "quantity": 1
+      },
+      {
+        "product_id": "FED-010",
+        "name_en": "Philips Avent Toddler Sippy Cup",
+        "name_ar": "كوب تدريب للأطفال من فيليبس أفينت",
+        "price_aed": 39.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-04-12",
+    "delivery_date": null,
+    "total_aed": 218.0,
+    "country": "UAE",
+    "payment_method": "credit_card"
+  },
+  {
+    "order_id": "MW-2024-0020",
+    "customer_name": "Tarek Abbas",
+    "customer_email": "tarek.abbas@gmail.com",
+    "status": "shipped",
+    "items": [
+      {
+        "product_id": "STR-006",
+        "name_en": "Joie Pact Pro Stroller",
+        "name_ar": "عربة جوي باكت برو",
+        "price_aed": 999.0,
+        "quantity": 1
+      },
+      {
+        "product_id": "STR-005",
+        "name_en": "Chicco KeyFit 30 Car Seat",
+        "name_ar": "مقعد سيارة تشيكو كي فيت 30",
+        "price_aed": 899.0,
+        "quantity": 1
+      }
+    ],
+    "order_date": "2024-04-08",
+    "delivery_date": null,
+    "total_aed": 1898.0,
+    "country": "Kuwait",
+    "payment_method": "credit_card"
+  }
+]

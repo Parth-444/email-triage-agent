@@ -1,0 +1,452 @@
+[
+  {
+    "id": "email_001",
+    "from": "fatima.ali@gmail.com",
+    "subject": "Return request for stroller",
+    "body": "Hi, I purchased a Chicco stroller 3 days ago (Order #MW-2024-0012) and the front wheel is broken already. I want a full refund please.",
+    "language": "en",
+    "expected_intent": "return_request",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "email_002",
+    "from": "dina.farouk@gmail.com",
+    "subject": "Can I exchange the diaper bin?",
+    "body": "Hello team, order MW-2024-0010 was delivered last week. The Tommee Tippee diaper bin is bigger than I expected. Can I exchange it for a smaller option?",
+    "language": "en",
+    "expected_intent": "return_request",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_003",
+    "from": "priya.menon@gmail.com",
+    "subject": "Refund for opened diapers",
+    "body": "I bought Pampers from you in order MW-2024-0016 and opened the pack, but my baby got a rash. Can I still return the remaining diapers for a refund?",
+    "language": "en",
+    "expected_intent": "return_request",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "email_004",
+    "from": "noura.jassim@gmail.com",
+    "subject": "Need to return an item",
+    "body": "Hi, I need help returning something I ordered last week for my newborn. I no longer need it and I'm not sure where to start.",
+    "language": "en",
+    "expected_intent": "return_request",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_005",
+    "from": "salma.haddad@gmail.com",
+    "subject": "Return request after delivery",
+    "body": "Good afternoon, my Chicco crib from order MW-2024-0014 doesn't fit the room the way I expected. It has been with us for a while, but it's still boxed properly. Can you advise if a return is possible?",
+    "language": "en",
+    "expected_intent": "return_request",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_006",
+    "from": "ahmed.nasser@gmail.com",
+    "subject": "Where is my refund?",
+    "body": "My order MW-2024-0006 was already returned and I still don't see the refund on my card. Please check and tell me when I will receive it.",
+    "language": "en",
+    "expected_intent": "return_request",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "email_007",
+    "from": "fatima.ali@gmail.com",
+    "subject": "This stroller is junk",
+    "body": "Order MW-2024-0001 arrived and the stroller quality is terrible. The wheel is wobbling and I want my money back now. This is ridiculous.",
+    "language": "en",
+    "expected_intent": "return_request",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "email_008",
+    "from": "mariam.youssef@gmail.com",
+    "subject": "Can I exchange the highchair color?",
+    "body": "Hi, I received order MW-2024-0008 soon I think, but I realized I selected the wrong color for the Chicco highchair. Is an exchange possible before delivery or right after?",
+    "language": "en",
+    "expected_intent": "return_request",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_009",
+    "from": "reem.abdullah@gmail.com",
+    "subject": "Need return label",
+    "body": "I want to send back my Babyzen stroller from MW-2024-0011. Nothing wrong with it, just not practical for us. Can you send the steps?",
+    "language": "en",
+    "expected_intent": "return_request",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_010",
+    "from": "maha.suwaidi@gmail.com",
+    "subject": "Projector arrived damaged",
+    "body": "Hello, order MW-2024-0018 was delivered with a cracked projector lens. I would prefer a refund unless you can replace it immediately.",
+    "language": "en",
+    "expected_intent": "return_request",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "email_011",
+    "from": "omar.khan@gmail.com",
+    "subject": "Where is my order?",
+    "body": "Can you please check order MW-2024-0003? I got the shipping notification but no latest update.",
+    "language": "en",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "email_012",
+    "from": "sana.malik@gmail.com",
+    "subject": "Order status please",
+    "body": "Hi, I placed an order 2 days ago under my email but I can't find the confirmation anymore. Can you tell me the status?",
+    "language": "en",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_013",
+    "from": "noor.hassan@gmail.com",
+    "subject": "When will this ship?",
+    "body": "My order MW-2024-0002 still says processing. It's for a breast pump and I really need it soon. When do you expect it to ship?",
+    "language": "en",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "email_014",
+    "from": "aisha.mirza@gmail.com",
+    "subject": "Tracking update needed",
+    "body": "Hello, please update me on MW-2024-0017. I'm traveling this weekend and need to know if the stroller will arrive before then.",
+    "language": "en",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "email_015",
+    "from": "laila.saeed@gmail.com",
+    "subject": "Why was my order cancelled?",
+    "body": "I just saw that MW-2024-0005 was cancelled and nobody informed me properly. What happened and how do I reorder the same items?",
+    "language": "en",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "email_016",
+    "from": "fatima.ali@gmail.com",
+    "subject": "It says delivered but I didn't get it",
+    "body": "Your email says order MW-2024-0012 was delivered, but nothing was at my door and security says they didn't receive it either. Please check urgently.",
+    "language": "en",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "email_017",
+    "from": "julia.reyes@gmail.com",
+    "subject": "order statuus",
+    "body": "Can someone pls check MW-2024-0999? Maybe I typed it wrong but I need to know where my package is.",
+    "language": "en",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_018",
+    "from": "farah.jamal@gmail.com",
+    "subject": "Status for MW-2024-0019",
+    "body": "Quick one, what is the latest status on order MW-2024-0019? I just want to know if it already moved to shipping.",
+    "language": "en",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_019",
+    "from": "asma.khan@gmail.com",
+    "subject": "Is the YOYO2 stroller in stock?",
+    "body": "Hi, I'm interested in the Babyzen YOYO2 stroller. Is it currently in stock and what is the price?",
+    "language": "en",
+    "expected_intent": "product_question",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_020",
+    "from": "maya.rahal@gmail.com",
+    "subject": "Need stroller recommendation",
+    "body": "Can you recommend a stroller for a newborn that is also good for travel? Budget is around 1300 AED.",
+    "language": "en",
+    "expected_intent": "product_question",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_021",
+    "from": "noor.hassan@gmail.com",
+    "subject": "Question about Avent pump",
+    "body": "Does the Philips Avent double electric breast pump come with bottles in the box, or do I need to buy them separately?",
+    "language": "en",
+    "expected_intent": "product_question",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_022",
+    "from": "rasha.ali@gmail.com",
+    "subject": "Pampers size guidance",
+    "body": "Would Pampers Premium Care size 2 be right for a 4 kg baby, or should I size up?",
+    "language": "en",
+    "expected_intent": "product_question",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_023",
+    "from": "nadine.mattar@gmail.com",
+    "subject": "Availability of bedside crib",
+    "body": "Is the Chicco Next2Me crib available now? Also does it come in a neutral color, not bright pink or blue.",
+    "language": "en",
+    "expected_intent": "product_question",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_024",
+    "from": "hana.jaber@gmail.com",
+    "subject": "Need 360 car seat under 1500",
+    "body": "I'm looking for a rear-facing 360 car seat under 1500 AED for a newborn. What would you suggest?",
+    "language": "en",
+    "expected_intent": "product_question",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_025",
+    "from": "dalia.younes@gmail.com",
+    "subject": "Gift idea for six-month-old",
+    "body": "Please suggest 2 or 3 nice products for a six-month-old baby gift. Something useful, not too expensive.",
+    "language": "en",
+    "expected_intent": "product_question",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_026",
+    "from": "samira.adel@gmail.com",
+    "subject": "Do you sell organic baby shampoo?",
+    "body": "I'm searching for an organic baby shampoo. If you don't have one, what is the gentlest shampoo you carry for infants?",
+    "language": "en",
+    "expected_intent": "product_question",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_027",
+    "from": "mariam.youssef@gmail.com",
+    "subject": "This delay is getting frustrating",
+    "body": "Order MW-2024-0008 has been stuck for days and this is the second time I've had a delay with Mumzworld. Please escalate this and tell me what is happening.",
+    "language": "en",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "email_028",
+    "from": "sara.ahmed@gmail.com",
+    "subject": "Baby monitor not working",
+    "body": "The Philips Avent monitor from MW-2024-0004 keeps disconnecting and this is unacceptable for a newborn product. I need this handled properly.",
+    "language": "en",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "email_029",
+    "from": "ahmed.nasser@gmail.com",
+    "subject": "Final notice before legal complaint",
+    "body": "I returned order MW-2024-0006 weeks ago and still no proper resolution. If this is not sorted immediately, I will file a legal complaint and contact my bank.",
+    "language": "en",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "critical"
+  },
+  {
+    "id": "email_030",
+    "from": "khalid.mansoor@gmail.com",
+    "subject": "Repeated issue with my order",
+    "body": "This is the third time I'm writing. My order MW-2024-0009 still has not been clarified and I keep getting generic replies. Someone senior needs to look at this.",
+    "language": "en",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "email_031",
+    "from": "yousef.kaabi@gmail.com",
+    "subject": "Who cancelled my order?",
+    "body": "Why on earth was MW-2024-0015 cancelled without my approval? This is extremely poor service and I want a proper explanation.",
+    "language": "en",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "email_032",
+    "from": "tarek.abbas@gmail.com",
+    "subject": "No one answered my address change request",
+    "body": "I wrote yesterday about changing the delivery address for order MW-2024-0020 and nobody replied. If the package goes to the wrong place, that is on you.",
+    "language": "en",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "email_033",
+    "from": "fatima.ali@gmail.com",
+    "subject": "I will post this everywhere",
+    "body": "The stroller in MW-2024-0001 is faulty and the support responses so far were useless. If this isn't escalated today, I will post about this on social media everywhere.",
+    "language": "en",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "critical"
+  },
+  {
+    "id": "email_034",
+    "from": "reem.abdullah@gmail.com",
+    "subject": "Very disappointed with your support",
+    "body": "I have been patient, but the way my issue was handled is really disappointing. I need a manager to review this case and stop sending copy-paste replies.",
+    "language": "en",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "email_035",
+    "from": "layan.omar@gmail.com",
+    "subject": "Shipping time to Riyadh",
+    "body": "Hello, how long does standard shipping usually take to Riyadh, and do you offer cash on delivery there?",
+    "language": "en",
+    "expected_intent": "general_inquiry",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_036",
+    "from": "shereen.aziz@gmail.com",
+    "subject": "Payment methods",
+    "body": "What payment methods do you accept on the website? Do you still have cash on delivery in the UAE?",
+    "language": "en",
+    "expected_intent": "general_inquiry",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_037",
+    "from": "ibrahim.hassan@gmail.com",
+    "subject": "Any physical stores in Dubai?",
+    "body": "Before I order, I wanted to ask if you have any physical store or pickup location in Dubai.",
+    "language": "en",
+    "expected_intent": "general_inquiry",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_038",
+    "from": "amanda.lewis@gmail.com",
+    "subject": "Gift wrapping options",
+    "body": "Do you offer gift wrapping for baby shower items? If yes, is it available for all products or only selected ones?",
+    "language": "en",
+    "expected_intent": "general_inquiry",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_039",
+    "from": "tarek.abbas@gmail.com",
+    "subject": "Can I change delivery address?",
+    "body": "If an order hasn't shipped yet, can the delivery address be changed? I want to understand the policy before I place a big order.",
+    "language": "en",
+    "expected_intent": "general_inquiry",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_040",
+    "from": "sahar.khalaf@gmail.com",
+    "subject": "Newsletter and support hours",
+    "body": "How do I subscribe to your newsletter, and what are your customer support working hours?",
+    "language": "en",
+    "expected_intent": "general_inquiry",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_041",
+    "from": "growthboost@leadmax.biz",
+    "subject": "Increase your SEO traffic by 400%",
+    "body": "Hello team, we can rank Mumzworld on page 1 of Google in 7 days and also sell premium crypto traffic lists. Reply for pricing.",
+    "language": "en",
+    "expected_intent": "out_of_scope",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_042",
+    "from": "karim.gym@gmail.com",
+    "subject": "Question about my membership",
+    "body": "Hi, I think I contacted the wrong company, but is my Mumz fitness membership still active? I was billed yesterday.",
+    "language": "en",
+    "expected_intent": "out_of_scope",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_043",
+    "from": "unknown_sender@nowhere.com",
+    "subject": "uhh",
+    "body": "mwzz qqq stroller maybe no yes ??? 12345 hhh",
+    "language": "en",
+    "expected_intent": "out_of_scope",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_044",
+    "from": "aisha.mirza@gmail.com",
+    "subject": "Need exchange please",
+    "body": "Hi team, order MW-2024-0017 arrived but الكرسي لونه مختلف عن الصورة. Can I exchange it for another color?",
+    "language": "mixed",
+    "expected_intent": "return_request",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "email_045",
+    "from": "sara.ahmed@gmail.com",
+    "subject": "Two things about my orders",
+    "body": "I need to know where my new order is, and I also want to return the baby monitor from MW-2024-0004 because it keeps disconnecting. Please advise both.",
+    "language": "en",
+    "expected_intent": "return_request",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "email_046",
+    "from": "maha.suwaidi@gmail.com",
+    "subject": "طلب استرجاع",
+    "body": "السلام عليكم، وصلني الطلب MW-2024-0018 وفيه جهاز عرض الأطفال مكسور من الداخل. أريد استرجاع المبلغ كاملًا لأن المنتج تالف.",
+    "language": "ar",
+    "expected_intent": "return_request",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "email_047",
+    "from": "omar.khan@gmail.com",
+    "subject": "أين طلبي؟",
+    "body": "مرحبًا، ممكن تفيدوني أين وصل الطلب MW-2024-0003؟ وصلني إشعار شحن لكن ما عندي أي تحديث جديد.",
+    "language": "ar",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "email_048",
+    "from": "dalal.hamad@gmail.com",
+    "subject": "أحتاج ترشيح عربة مناسبة",
+    "body": "أبحث عن عربة مناسبة للمولود الجديد وتكون خفيفة للسفر. إذا عندكم أكثر من خيار ياليت ترشحون لي الأفضل.",
+    "language": "ar",
+    "expected_intent": "product_question",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "email_049",
+    "from": "aisha.mirza@gmail.com",
+    "subject": "شكوى بخصوص الطلب",
+    "body": "هذه ليست أول مرة أتواصل بخصوص الطلب MW-2024-0017 ولا أحد رد علي بشكل واضح. الخدمة سيئة جدًا وأريد تصعيد الموضوع فورًا.",
+    "language": "ar",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "email_050",
+    "from": "layan.omar@gmail.com",
+    "subject": "استفسار عن الشحن والدفع",
+    "body": "لو سمحتم، كم يستغرق الشحن إلى السعودية؟ وهل الدفع عند الاستلام متاح هناك؟",
+    "language": "ar",
+    "expected_intent": "general_inquiry",
+    "expected_urgency": "low"
+  }
+]

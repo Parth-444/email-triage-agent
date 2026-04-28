@@ -1,0 +1,152 @@
+[
+  {
+    "id": "tc_001",
+    "description": "Clear English return request with order ID",
+    "email_id": "email_001",
+    "expected_intent": "return_request",
+    "expected_urgency": "medium",
+    "expected_action": "auto_respond",
+    "expected_sub_intent": "refund",
+    "notes": "Happy path — clear intent, order exists, within return window."
+  },
+  {
+    "id": "tc_002",
+    "description": "Standard shipped order inquiry",
+    "email_id": "email_011",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "medium",
+    "expected_action": "auto_respond",
+    "expected_sub_intent": "tracking",
+    "notes": "Happy path with valid order ID and shipping context."
+  },
+  {
+    "id": "tc_003",
+    "description": "Specific product availability question",
+    "email_id": "email_019",
+    "expected_intent": "product_question",
+    "expected_urgency": "low",
+    "expected_action": "auto_respond",
+    "expected_sub_intent": null,
+    "notes": "Happy path for catalog lookup."
+  },
+  {
+    "id": "tc_004",
+    "description": "General shipping and COD question",
+    "email_id": "email_035",
+    "expected_intent": "general_inquiry",
+    "expected_urgency": "low",
+    "expected_action": "auto_respond",
+    "expected_sub_intent": null,
+    "notes": "Happy path for shipping policy grounding."
+  },
+  {
+    "id": "tc_005",
+    "description": "Arabic return request for damaged item",
+    "email_id": "email_046",
+    "expected_intent": "return_request",
+    "expected_urgency": "medium",
+    "expected_action": "auto_respond",
+    "expected_sub_intent": "refund",
+    "notes": "Happy path in Arabic."
+  },
+  {
+    "id": "tc_006",
+    "description": "Order inquiry without order number",
+    "email_id": "email_012",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "low",
+    "expected_action": "request_more_info",
+    "expected_sub_intent": "tracking",
+    "notes": "Edge case requiring additional details."
+  },
+  {
+    "id": "tc_007",
+    "description": "Opened diaper refund request",
+    "email_id": "email_003",
+    "expected_intent": "return_request",
+    "expected_urgency": "medium",
+    "expected_action": "request_more_info",
+    "expected_sub_intent": "refund",
+    "notes": "Edge case against hygiene-return policy."
+  },
+  {
+    "id": "tc_008",
+    "description": "Spam outreach",
+    "email_id": "email_041",
+    "expected_intent": "out_of_scope",
+    "expected_urgency": "low",
+    "expected_action": "request_more_info",
+    "expected_sub_intent": null,
+    "notes": "Edge case spam detection."
+  },
+  {
+    "id": "tc_009",
+    "description": "Mixed-language exchange request",
+    "email_id": "email_044",
+    "expected_intent": "return_request",
+    "expected_urgency": "medium",
+    "expected_action": "auto_respond",
+    "expected_sub_intent": "exchange",
+    "notes": "Edge case with mixed English and Arabic."
+  },
+  {
+    "id": "tc_010",
+    "description": "Wrong company inquiry",
+    "email_id": "email_042",
+    "expected_intent": "out_of_scope",
+    "expected_urgency": "low",
+    "expected_action": "request_more_info",
+    "expected_sub_intent": null,
+    "notes": "Edge case that should not be forced into a Mumzworld support label."
+  },
+  {
+    "id": "tc_011",
+    "description": "Missing delivery with delivered scan",
+    "email_id": "email_016",
+    "expected_intent": "order_inquiry",
+    "expected_urgency": "high",
+    "expected_action": "escalate_to_human",
+    "expected_sub_intent": "tracking",
+    "notes": "Adversarial because the status and customer claim conflict."
+  },
+  {
+    "id": "tc_012",
+    "description": "Legal threat over unresolved refund",
+    "email_id": "email_029",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "critical",
+    "expected_action": "escalate_to_human",
+    "expected_sub_intent": "escalate",
+    "notes": "Adversarial high-risk complaint."
+  },
+  {
+    "id": "tc_013",
+    "description": "Multiple intents in one email",
+    "email_id": "email_045",
+    "expected_intent": "return_request",
+    "expected_urgency": "high",
+    "expected_action": "escalate_to_human",
+    "expected_sub_intent": "refund",
+    "notes": "Adversarial because it combines order tracking and a faulty product complaint."
+  },
+  {
+    "id": "tc_014",
+    "description": "Aggressive cancellation complaint",
+    "email_id": "email_031",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "high",
+    "expected_action": "escalate_to_human",
+    "expected_sub_intent": "escalate",
+    "notes": "Adversarial tone with frustration around a cancelled order."
+  },
+  {
+    "id": "tc_015",
+    "description": "Arabic complaint demanding escalation",
+    "email_id": "email_049",
+    "expected_intent": "complaint_escalation",
+    "expected_urgency": "high",
+    "expected_action": "escalate_to_human",
+    "expected_sub_intent": "escalate",
+    "notes": "Adversarial Arabic complaint with repeated-issue context."
+  }
+]
