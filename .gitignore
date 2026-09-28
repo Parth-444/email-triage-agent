@@ -1,6 +1,9 @@
 # Secrets — never commit
 .env
 
+# Local notes
+project_working.md
+
 # Python bytecode
 __pycache__/
 *.py[cod]

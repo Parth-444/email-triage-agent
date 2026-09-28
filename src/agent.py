@@ -7,25 +7,12 @@ from langgraph.graph import END, START, StateGraph
 from pydantic import BaseModel
 
 from src.config import get_llm
+from src.jev_client import evaluate_email_triage
 from src.prompts import SYSTEM_PROMPT
 from src.schemas import TriageOutput
 from src.tools import load_skill, lookup_order, search_policy, search_products
 
 _llm = get_llm()
-
-
-class ClassificationResult(BaseModel):
-    intent: Literal[
-        "return_request",
-        "order_inquiry",
-        "product_question",
-        "complaint_escalation",
-        "general_inquiry",
-        "out_of_scope",
-    ]
-    urgency: Literal["low", "medium", "high", "critical"]
-    reasoning: str
-    confidence: float
 
 
 class ReplyResult(BaseModel):
@@ -96,11 +83,7 @@ def classify_intent(state: AgentState) -> AgentState:
     email_text = state["email_input"]
     language = _detect_language(email_text)
     try:
-        structured_llm = _llm.with_structured_output(ClassificationResult)
-        result: ClassificationResult = structured_llm.invoke([
-            SystemMessage(content=SYSTEM_PROMPT),
-            HumanMessage(content=email_text),
-        ])
+        result = evaluate_email_triage(email_text)
         intent, urgency, reasoning, confidence = (
             result.intent, result.urgency, result.reasoning, result.confidence
         )

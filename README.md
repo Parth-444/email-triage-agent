@@ -17,6 +17,8 @@ Edit `.env`:
 ```
 GOOGLE_API_KEY=<your-gemini-api-key>
 MODEL_NAME=gemini-3.1-flash-lite-preview
+JEV_API=<your-typesafe-api-key>
+JEV_MODEL_NAME=jev-latest
 ```
 
 ---
@@ -79,7 +81,7 @@ mumzworld-email-triage/
 email
   │
   ▼
-classify_intent        LLM → intent, urgency, reasoning, confidence
+classify_intent        JEV → intent, urgency, reasoning, confidence
   │
   ├─ out_of_scope ───► out_of_scope_handler → escalate_to_human
   │
@@ -135,7 +137,8 @@ The system prompt loads a lightweight `skills/catalog.md` so the LLM knows what 
 | | |
 |---|---|
 | **LangGraph** | Explicit state machine — inspectable, easy to extend with new nodes |
-| **LangChain + Gemini** | `with_structured_output` enforces typed responses without prompt hacking |
+| **LangChain + TypeSafe JEV** | Fast typed decisions for intent and urgency classification |
+| **LangChain + Gemini** | `with_structured_output` enforces typed reply generation without prompt hacking |
 | **Pydantic** | Schema validation at classification, reply generation, and final output |
 | **Streamlit** | Lightweight UI for demos and manual testing |
 | **uv** | Fast dependency management — `uv sync` reproduces the environment |
