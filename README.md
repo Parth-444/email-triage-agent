@@ -1,4 +1,4 @@
-# MumzHelper — Email Triage Agent
+#  Email Triage Agent
 
 A bilingual (English/Arabic) AI agent that triages inbound customer emails for Mumzworld. It classifies intent, fetches grounding data, and produces a structured response with suggested replies in both languages.
 
