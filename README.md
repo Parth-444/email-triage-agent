@@ -62,7 +62,7 @@ Incoming Customer Email
 ### 2. Installation
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone 
 cd email-triage-agent
 
 # Set up virtual environment and dependencies
